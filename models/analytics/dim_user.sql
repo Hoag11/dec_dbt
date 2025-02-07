@@ -1,7 +1,7 @@
 SELECT
     {{dbt_utils.generate_surrogate_key([
-        'ip'
-        ,'user_agent'
+        '_id'
+        ,'order_id'
     ])}} AS user_id
     ,ip
     ,user_agent

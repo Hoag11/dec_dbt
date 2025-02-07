@@ -1,5 +1,6 @@
 SELECT 
     time_stamp AS timestamp
+    ,ip
     ,local_time
     ,DATE(local_time) AS date
     ,EXTRACT(YEAR FROM (local_time)) AS year
@@ -10,4 +11,6 @@ SELECT
     ,EXTRACT(DAY FROM (local_time)) AS day
     ,EXTRACT(DAYOFWEEK FROM (local_time)) AS day_of_week
     ,FORMAT_TIMESTAMP('%A', (local_time)) AS day_name
+    ,order_id
 FROM {{source('glamira','dec_raw_data')}}
+WHERE collection = 'checkout_success'

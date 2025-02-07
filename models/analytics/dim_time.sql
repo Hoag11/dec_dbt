@@ -1,7 +1,9 @@
 SELECT
     {{ dbt_utils.generate_surrogate_key([
-        'date'
+        'ip'
+        ,'local_time'
         ,'timestamp'
+        ,'order_id'
     ])}} as time_id
     ,local_time
     ,timestamp
