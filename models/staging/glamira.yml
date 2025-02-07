@@ -4,3 +4,6 @@ models:
 
   - name: stg_dim_time
     description: extract timestamp to get helpful values
+
+  - name: stg_dim_locate
+    description: handle null values

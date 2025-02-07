@@ -4,6 +4,6 @@ SELECT
     ,resolution
     ,user_id_db
     ,device_id
-    ,COALESCE(email_address, 'undefined')
+    ,COALESCE(email_address, 'undefined') AS email_address
 FROM {{source('glamira','dec_raw_data')}}
 WHERE collection = 'checkout_success'
