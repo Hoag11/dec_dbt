@@ -1,0 +1,6 @@
+models:
+  - name: stg_dim_product
+    description: handle null values
+
+  - name: stg_dim_time
+    description: extract timestamp to get helpful values

@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: glamira 
+    project: nice-abbey-444913-a8  
+    dataset: dec01  
+    
+    tables:
+      - name: dec_product_raw
+        description: "Raw data about products"
+
+      - name: dec_location_raw
+        description: "Raw data about customer's locations"
+
+      - name: dec_raw_data
+        description: "Raw data from various sources"
