@@ -1,5 +1,5 @@
 <h2>GLAMIRA DATAWAREHOUSE</h2>
-![image](https://github.com/user-attachments/assets/109b8a64-fad3-4331-8944-1e62b93383f1)
+![image](https://github.com/user-attachments/assets/77300ef1-299f-4d2b-b207-7864d67977bc)
 
 <h2>Project Overview</h2>
 This project focuses on designing a data warehouse to store and manage all successful checkout transactions efficiently. The warehouse is built on Google BigQuery, leveraging its scalability and performance for handling large volumes of transactional data.
@@ -21,3 +21,5 @@ The project is still in development and has not yet reached its final version. C
 <ul>Continuing collect data</ul>
 <ul>Improving the Data Warehouse Schema design</ul>
 <ul>Expanding the Looker dashboards with more advanced analytics</ul>
+
+Link Looker: https://lookerstudio.google.com/u/5/reporting/eaecef34-2b36-4938-b58f-f5e484392fc8/page/okenE
