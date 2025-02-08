@@ -1,15 +1,23 @@
-Welcome to your new dbt project!
+<h2>GLAMIRA DATAWAREHOUSE</h2>
+![image](https://github.com/user-attachments/assets/109b8a64-fad3-4331-8944-1e62b93383f1)
 
-### Using the starter project
+<h2>Project Overview</h2>
+This project focuses on designing a data warehouse to store and manage all successful checkout transactions efficiently. The warehouse is built on Google BigQuery, leveraging its scalability and performance for handling large volumes of transactional data.
 
-Try running the following commands:
-- dbt run
-- dbt test
+<h3>Technology Stack</h3>
+Storage: Google BigQuery (Cloud Data Warehouse)
+Data Transformation: dbt (Data Build Tool) for data modeling, cleaning, and transformation
+Data Visualization: Looker for creating dashboards and insightful reports
 
+<h3>Current Status</h3>
+The project is still in development and has not yet reached its final version. Currently, we are:
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+1.Designing the Data Warehouse Schema: Ensuring it aligns with business requirements and supports analytical queries efficiently.
+2.Implementing dbt Models: Transforming raw transactional data into structured, meaningful datasets for analysis.
+3.Building Looker Dashboards: Visualizing key metrics and trends related to region of customer and customer behavior.
+
+<h3>Future Improvements</h3>
+<ul>Optimizing dbt models for better query performance</ul>
+<ul>Continuing collect data</ul>
+<ul>Improving the Data Warehouse Schema design</ul>
+<ul>Expanding the Looker dashboards with more advanced analytics</ul>
